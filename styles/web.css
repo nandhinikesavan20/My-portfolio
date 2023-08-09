@@ -1,0 +1,324 @@
+body{
+    background-color: rgb(230,225,249);
+    
+    background-image: linear-gradient(to bottom right,rgb(230,225,249),rgb(187,168,255) );
+    background-attachment: fixed;
+    margin-left:90px;
+    margin-top: 120px;
+    
+}
+
+
+
+section{
+        padding-top: 5%;
+        min-height: 100vh;
+        
+    
+}
+.header{
+    background-color:rgb(144, 120, 228);
+    padding-left: -5px;
+    color: white;
+    left:0px;
+    top:0px;
+    right: 0px;
+    height: 50px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+
+}
+.header .leftside{
+    
+    padding-top:10px; 
+    flex:1;
+    display:flex;
+    direction: row;
+} 
+.header .rightside{
+    padding-right: 20px;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;/*remove flex*/
+    display:flex;
+    direction: row;
+    width: 100px;
+    right: 10px;
+}
+.header #menu{
+    margin-top: 10px;
+    text-align: center;
+    width:80px;
+    size: 50px;
+    margin-right: 32px;
+    
+}
+.header .logo{
+    
+    width:100px;
+}
+
+.aboutme{
+   /* margin-left:30px; */
+    margin-top: 0%;
+    margin-left:10%;
+    margin-right:10%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    vertical-align: middle;
+}  
+.greeting, .into{
+    padding-top: 8px;
+    font-size:xx-large;
+    font-weight:bolder;
+    
+}
+.about-content{
+    padding-top: 8px;
+    padding-right: 30px;
+    line-height: 32px;
+    font-size: larger;
+
+}
+.aboutme .content {
+    padding-right: 40px;
+    flex: 2fr;
+}
+.profile-photo{
+    margin-left: 10px;
+    flex: 1 fr;
+    
+    
+}
+.profile-photo img{
+    width: 200px;
+    height: 210px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: rgb(144, 120, 228);
+    border-width: 6px;
+}
+
+/*education*/
+
+h1{
+    text-align: center;
+}
+.degree {
+    display: block;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: white;
+    padding-left: 32px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-right: 32px;
+    background-color: white;
+    border-style: solid;
+}
+.degree .deg-content{
+    display: inline-block;
+    width: 88%;
+}
+.degree .yop{
+    padding-top: 15px;
+    display: inline-block;
+    width: 10%;
+    vertical-align: top;
+}
+.degree:hover{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.50);
+}
+
+/* project section*/
+
+.pro{
+    
+    display:flex;
+    flex-direction:row;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:30px;
+    align-items: center;
+   
+    /*margin-left:10%;
+    margin-right:10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;*/
+    
+
+}
+.pro .video{
+    
+    flex:1;
+   
+}
+/*.pro .video{
+    object-fit:contain;
+}*/
+.pro .title{
+    
+    flex:1; 
+}
+
+.pro .video .img{
+    object-fit: contain;
+}
+
+
+/* skill section*/
+.skillsection{
+
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    
+   
+    margin-left:30%;
+    margin-right:20%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.skill, .container{
+    flex: 1;
+    
+}
+.container{
+    background-color: white;
+    width: 80%;
+    height: 20px;
+    border-radius: 15px;
+}
+.skillpro {
+   background-color:rgb(144, 120, 228); 
+   color: white;
+   padding: 1%;
+   text-align: right;
+   font-size: 15px;
+   height: 15px;
+   border-radius: 15px;
+}
+.python{
+    width: 75%;
+}
+.c{
+    width: 90%;
+}
+.html,.css,.sql{
+    width:80%;
+}
+
+.contact .row{
+    display: flex;
+    flex-direction: row;
+
+    margin-left:10%;
+    margin-right:10%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contact .row .content{
+    
+    padding:2rem;
+    padding-top: 0;
+
+}
+.contact .row .con{
+
+    padding:2rem;
+    margin: 2rem;
+    margin-bottom: 4rem;
+
+}
+.contact .row form .box{
+    padding: 1 rem;
+    margin: 1rem 0;
+    background: #3333;
+    color:black;
+    text-transform: none;
+    font-size: 15px;
+    width: 100%;
+}
+.contact .row form .message{
+    height: 8rem;
+    resize: none;
+}
+
+.contact .row .content .title{
+    text-transform: uppercase;
+    color: black;
+    font-size: 20px;
+    
+}
+
+.contact .row .content .info h3{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: black;
+    /*padding: 1rem 0;*/
+    font-weight: normal;
+}
+
+.contact .row .content .info h3 i{
+    padding-right: 1rem;
+    color: var(--yellow);
+}
+
+.contact .row form .box::placeholder{
+    text-transform: capitalize;
+}
+
+
+.content , .con{
+    flex: 1;
+}
+
+.sectionhy{
+    display: flex;
+    flex-direction: row;
+    margin-left:35%;
+    margin-right:30%;
+    justify-content: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+  .prosectionhy:hover{
+text-decoration: underline;
+}
+.edusectionhy:hover{
+    text-decoration: underline;
+}
+.skillssectionhy:hover{
+    text-decoration: underline;
+}
+.aboutsectionhy:hover{
+    text-decoration: underline;
+}
+
+.conicon{
+    
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;/*remove flex*/
+    display:flex;
+    direction: row;
+    width: 100px;
+    margin-left:46%;
+    margin-right:10%;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+#projects p{
+    font-size: 18px;
+}

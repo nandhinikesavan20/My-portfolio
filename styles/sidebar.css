@@ -1,0 +1,25 @@
+.sidebar{
+    background-color:rgb(144, 120, 228);
+    color:white;
+    position: fixed;
+    left: 0px;
+    top: 50px;
+    bottom: 0px;
+    width: 72px;
+    text-align: center;
+    font-size: medium;
+    text-transform: capitalize;
+    padding-top:30px;
+}
+#about{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.sidebar a, .rightside a{
+    color: #fff;
+    text-decoration: none;
+}
+.conicon a{
+    color: black;
+    text-decoration: none;
+}
