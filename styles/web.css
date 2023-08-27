@@ -31,7 +31,7 @@ section{
 }
 .header .leftside{
     
-    padding-top:10px; 
+    padding-top: 12px;
     flex:1;
     display:flex;
     direction: row;
@@ -321,4 +321,80 @@ text-decoration: underline;
 }
 #projects p{
     font-size: 18px;
+}
+
+/*@media(max-width:768px){
+  html{
+        font-size: 50%;
+    }
+
+   
+}
+@viewport{
+    width: device-width;
+    zoom: 1;
+}
+
+@-ms-viewport{
+    width: device-width;
+}
+
+@media(max-width:400px){
+    .contact .row .con form {
+        margin: 10rem 0;
+    }
+    #education, #skills, #projects, #contact{
+        width: 100%;
+    }  
+}
+
+@media screen and (min-width:200px) and (max-width:320px){
+    *{
+        width:100%;
+    }
+}*/
+
+/*@media(min-width:900px){
+    :root{
+        --fs-h1:1.5rem;
+        --fs-h2:2.25rem;
+        --fs-body: 1rem;
+        --fs-xl:4.5rem;
+    }
+    body{
+        height: 100vh;
+        
+    }
+}*/
+@media screen and (max-width:600px){
+    
+    body{
+        width:180%;
+    }
+
+    .pro .title{
+        display: none;
+    }
+    .pro{
+        margin-left: 28%;
+    }
+    .skillsection{
+        margin-left: 20%;
+    }
+    .contact .row .content{
+        padding-left: 20%;
+
+    }
+    .conicon{
+        margin-left: 43%;
+    }
+    .edusectionhy{
+        padding-right: 12px;
+    }
+    .skillssectionhy{
+        padding-right: 12px;
+    }
+    .aboutsectionhy{
+        padding-right: 12px;
+    }
 }
